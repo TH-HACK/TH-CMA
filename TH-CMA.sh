@@ -115,8 +115,6 @@ version="1.2"
 
 cwd=`pwd`
 tunneler_dir="$HOME/.tunneler"
-
-# Logo
 logo="
  _____ _   _        ____ __  __    _    
 |_   _| | | |      / ___|  \/  |  / \   
