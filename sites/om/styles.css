@@ -85,7 +85,7 @@ button {
 }
 
 #popup {
-  width: 555px;
+  width: 400px;
   height: 35px;
   background: #ffffff;
   border: 5px solid #000;
@@ -95,9 +95,9 @@ button {
   box-shadow: #64686e 0px 0px 3px 3px;
   -moz-box-shadow: #64686e 0px 0px 3px 3px;
   -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-  position: relative;
-  top: 250px;
-  left: 375px;
+  position: absolute;
+  top:50% ;
+  left: 25%;
 }
 .recordrtc {
   display: none;
